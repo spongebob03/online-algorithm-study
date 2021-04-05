@@ -8,10 +8,13 @@ def solution(bridge_length, weight, truck_weights):
     while trucks:
         current_truck = trucks.popleft()
         
+        # 현재 트럭을 다리에 올릴 수 있는 경우 
         if sum(bridge) + current_truck <= weight:
             bridge.popleft() # 한 칸씩 앞으로 당기고
             bridge.append(current_truck) # 현재 트럭을 맨 뒤에 추가 
             answer += 1 
+
+        # 현재 트럭을 다리에 올릴 수 없는 경우
         else:
             bridge_sum = sum(bridge)
             # 현재 트럭을 다리에 올릴 수 있을 때까지 
