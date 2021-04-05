@@ -20,6 +20,6 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 
 
 ## 일정 (5주간 스터디)
-|                  |1     |2    |3   |4|
-|:----------------:|:---:|:---:|:---:|:---:|
-|1주차(04.05~04.11)| | | | |
+|                  |1     |2    |3   |4     |5      |
+|:----------------:|:---:|:---:|:---:|:---:|:---:|
+|1주차(04.05~04.11)| [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)| [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)|[단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |[정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)|
