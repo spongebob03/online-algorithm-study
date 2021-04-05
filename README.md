@@ -12,15 +12,14 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 0. 원격 main 브랜치 당겨오기
     * 새 PR용 브랜치를 생성하기 **이전에** 최신 버전의 main 브랜치를 따와야 버전이 엉키지 않습니다
 1. 로컬 브랜치 생성 후 문제 풀기
-    * 브랜치 이름은 `lego-week1`과 같이 닉네임 영문표기과 해당 주차로 작성해주세요
+    * 브랜치 이름은 `bmo-week1`과 같이 깃허브 닉네임과 해당 주차로 작성해주세요
 2. 브랜치 commit→ 원격 브랜치로 push→ 풀리퀘 보내기 → 코드리뷰
 3. 코드리뷰 참고해서 코드 수정 → [commit→ push→ 재리뷰]...반복
 4. 더이상 수정 사항이 없다면 풀리퀘 페이지에서 merge
-5. 로컬: 메인 브랜치로 와서 pull→ 새 브랜치 만들기
 ---
 
 
 ## 일정 (5주간 스터디)
-|                  |1     |2    |3   |4|
-|:----------------:|:---:|:---:|:---:|:---:|
-|1주차(03.29~04.04)| | | | |
+|                  |1     |2    |3   |4     |5      |
+|:----------------:|:---:|:---:|:---:|:---:|:---:|
+|1주차(04.05~04.11)| [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)| [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)|[단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |[정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)|
