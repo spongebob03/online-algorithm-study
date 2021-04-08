@@ -18,16 +18,12 @@ def solution(begin, target, words):
         for word in words:
             # target 단어 자체가 한 알파벳만 바꾸면 begin이 되는 경우 
             if word == target and checkdiff1(begin, word):
-                # 현재 depth (=1)를 answer에 추가 
+                # 현재 depth를 answer에 추가 
                 answer.append(depth)
             # words 안의 단어 중 target과 한 알파벳만 다른 사이인 경우 
             elif checkdiff1(target, word):
-                # 이 단어가 begin과 같으면 현재 depth를 answer에 추가
-                if word == begin:
-                    answer.append(depth)
-                # 그렇지 않으면, depth를 하나 더 늘려서 target 제외한 words 리스트에서 한 알파벳만 다른 사이들을 다시 search 
-                else:
-                    search(word, [w for w in words if w != target], depth+1) 
+                # depth를 하나 더 늘려서 target 제외한 words 리스트에서 한 알파벳만 다른 사이들을 다시 search 
+                search(word, [w for w in words if w != target], depth+1) 
         
     search(target, words, 1)
     
