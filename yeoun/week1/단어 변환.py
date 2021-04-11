@@ -27,5 +27,9 @@ def solution(begin, target, words):
         
     search(target, words, 1)
     
+    # 변환할 수 없을 경우 0을 반환
+    if answer == []:
+    	return 0
+
     # answer의 값 중 최솟값을 반환 
     return min(answer)
