@@ -19,7 +19,7 @@ def isPrime(num):
 # 소인수분해하기 
 # ex. 4 -> [2,2]
 # ex. 14 -> [2,7]
-def factorize(num, result):
+def factorize(num):
     result = []
     
     # 그 자체로 소수거나 1이라면 자기 자신만 반환 
@@ -47,7 +47,7 @@ def solution(arr):
     result = Counter()
     
     for num in arr:
-        result |= Counter(factorize(num,[]))
+        result |= Counter(factorize(num))
     
     # 소인수분해한 결과의 합집합을 곱해 최종 답을 계산
     for key in result:
