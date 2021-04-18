@@ -53,7 +53,7 @@ def solution(key, lock):
     lock0 = deque(check_idx(lock, 0))
     
     # 열쇠를 꽂을 곳이 없음 
-    if lock0 == deque():
+    if not lock0:
         return True 
     
     # 0인 부분들 사이의 차(관계) 
