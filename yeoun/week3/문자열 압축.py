@@ -9,7 +9,7 @@ def ngram(s, n):
         # 이전과 같다면 count 하나씩 올려주기 
         if prev == cur:
             idx = -1
-            # 마지막 숫자의 자리수 확인 
+            # 마지막 숫자의 자릿수 확인 
             while len(result) > -idx and result[idx].isdigit():
                 idx -= 1 
             result =  result[:idx+1] + str(int(result[idx+1:]) + 1)
