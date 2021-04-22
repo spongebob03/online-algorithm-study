@@ -4,6 +4,6 @@ def solution(n, s):
     answer = [s//n for _ in range(n)]
 
     for idx in range(s % n):
-        answer[idx] += 1
+        answer[-1 - idx] += 1
 
-    return sorted(answer)
+    return answer
