@@ -1,5 +1,3 @@
-from collections import deque 
-
 # 균형잡힌 괄호 문자열: '(' 의 개수와 ')' 의 개수가 같음 
 def balanced(p:str) -> bool:
     return p.count('(') == p.count(')')
@@ -9,22 +7,20 @@ def correct(p:str) -> bool:
     if not balanced(p) or p.startswith(')') or p.endswith('('):
         return False
     else:
-        queue = deque(p)
-        result = deque()
-        while queue:
-            popped = queue.popleft()
-            if popped == '(':
-                result.append(popped)
-            else:
-                if result[-1] == '(':
-                    result.pop()
-        return result == deque()
+    	stack = []
+    	for element in p:
+    		if element == ')' and stack:
+    			stack.pop()
+    		else:
+    			stack.append(element)
+
+    return True if not stack else False
 
 # 문자열의 괄호 방향 뒤집기 
 def flip(p:str) -> str:
     result = ''
-    for _ in p:
-        if _ == '(':
+    for element in p:
+        if element == '(':
             result += ')'
         else:
             result += '('
