@@ -11,8 +11,9 @@ def solution(genres, plays):
     # genre_dict[장르] = 해당 장르의 총 재생 횟수 
     genre_dict = {}
     for genre in song_dict:
-        # album_dict의 각 장르 내에서 재생 횟수가 많은 순으로 정렬 
-        song_dict[genre].sort(key=lambda x: x[1], reverse=True)
+        # album_dict의 각 장르 내에서 재생 횟수(x[1])가 많은 순으로 정렬 
+        # 단, 재생 횟수가 같다면 고유 번호(x[0])가 낮은 노래가 먼저 수록됨 
+        song_dict[genre].sort(key=lambda x: (x[1], -x[0]), reverse=True)
         genre_dict[genre] = sum([song[1] for song in song_dict[genre]])
     
     # 총 재생 횟수가 많은 장르대로 정렬 
