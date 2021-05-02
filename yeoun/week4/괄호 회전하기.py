@@ -4,16 +4,17 @@ def is_correct(s):
     # 첫 시작이 닫는 괄호면 False 
     if s[0] in parenthesis.keys():
         return False
-    else:
-        stack = []
-        for element in s:
-            # 닫는 괄호고 stack에 pop할 것이 있는 경우 
-            if element in parenthesis.keys() and stack:
-                if parenthesis[element] != stack.pop():
-                    return False
-            # 여는 괄호 또는 stack이 비어있는 경우 
-            else:
-                stack.append(element)
+
+    # 첫 시작이 여는 괄호인 경우 
+    stack = []
+    for element in s:
+        # 닫는 괄호고 stack에 pop할 것이 있는 경우 
+        if element in parenthesis.keys() and stack:
+            if parenthesis[element] != stack.pop():
+                return False
+        # 여는 괄호 또는 stack이 비어있는 경우 
+        else:
+            stack.append(element)
     # stack이 비어 있으면 True, 아니면 False 
     return True if not stack else False
 
