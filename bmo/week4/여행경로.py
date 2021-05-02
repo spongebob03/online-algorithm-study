@@ -16,6 +16,3 @@ def solution(tickets):
             stack.append(flight[stack[-1]].pop())
     
     return answer[::-1]
-
-if __name__ == '__main__':
-    print(solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]		))

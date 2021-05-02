@@ -6,9 +6,7 @@ def solution(genres, plays):
         genreRank[genre] = genreRank.get(genre, 0) + play
     songs.sort(reverse=True, key=lambda x: (x[2], -x[0]))
     
-    genreRank = sorted(genreRank.items(), reverse=True, key=lambda x: x[1])
-    if len(genreRank) > 2:
-        genreRank = genreRank[:2] 
+    genreRank = sorted(genreRank.items(), reverse=True, key=lambda x: x[1]) 
 
     for best, play in genreRank:
         count = 0
@@ -17,6 +15,3 @@ def solution(genres, plays):
                 answer.append(song[0])
                 count += 1
     return answer
-
-if __name__ == '__main__':
-    print(solution(["classic", "pop", "pop"], [500, 1000, 200]))
