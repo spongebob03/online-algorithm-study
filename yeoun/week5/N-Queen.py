@@ -1,14 +1,14 @@
-# 시간 초과
+# n = 12일 때 시간 초과
 
 def attackRange(position, n):
     result = []
     x,y = position
     
     # 퀸이 속한 행 
-    result += [(x,i) for i in range(n)] 
+    # result += [(x,i) for i in range(n)] 
     
     # 퀸이 속한 열 
-    result += [(i,y) for i in range(n)] 
+    result += [(i,y) for i in range(x+1, n)] 
     
     # 퀸의 대각선 (오른쪽 아래)
     while (x+1) in range(n) and (y+1) in range(n):
@@ -16,12 +16,12 @@ def attackRange(position, n):
         x += 1
         y += 1 
     
-    x,y = position
+    # x,y = position
     # 퀸의 대각선 (왼쪽 위)
-    while (x-1) in range(n) and (y-1) in range(n):
-        result.append((x-1,y-1))
-        x -= 1
-        y -= 1 
+    # while (x-1) in range(n) and (y-1) in range(n):
+    #    result.append((x-1,y-1))
+    #    x -= 1
+    #    y -= 1 
 
     x,y = position
     # 퀸의 대각선 (왼쪽 아래)
@@ -30,12 +30,12 @@ def attackRange(position, n):
         x += 1
         y -= 1 
     
-    x,y = position
+    # x,y = position
     # 퀸의 대각선 (오른쪽 위)
-    while (x-1) in range(n) and (y+1) in range(n):
-        result.append((x-1,y+1))
-        x -= 1
-        y += 1 
+    # while (x-1) in range(n) and (y+1) in range(n):
+    #    result.append((x-1,y+1))
+    #    x -= 1
+    #    y += 1 
 
     return list(set(result))
 
