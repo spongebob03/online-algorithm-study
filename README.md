@@ -19,7 +19,7 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 ---
 
 
-## 일정 (5주간 스터디)
+## 일정
 |                  |1     |2    |3   |4     |5      |
 |:----------------:|:---:|:---:|:---:|:---:|:---:|
 |1주차(04.05~04.11)| [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)| [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)|[단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |[정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)|
@@ -27,3 +27,5 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 |3주차(04.19~04.25)|[문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)|[괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)|[방문길이](https://programmers.co.kr/learn/courses/30/lessons/49994)|[단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)|[숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987)|
 |4주차(04.26~05.02)|[더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)|[괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502)|[영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981)|[베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)|[여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)|
 |5주차(05.03~05.09)|[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)|[메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)|[N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952)|[등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)|[디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)|
+||
+|1주차(05.17~05.23)|[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)|[크레인 인형뽑기](https://programmers.co.kr/learn/courses/30/lessons/64061)|[예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985)|[후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)|[이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)|
