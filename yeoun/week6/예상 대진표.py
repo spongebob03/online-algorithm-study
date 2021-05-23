@@ -1,13 +1,8 @@
 # a,b 참가자가 현재 라운드에서 만나면 True, 아니면 False 
 # 둘의 차가 1이고, 큰 값이 짝수여야 만남 
 def check_if_meet(a,b):
-    if a < b:
-        if b-a == 1 and a % 2 == 1 and b % 2 == 0:
-            return True
-
-    else: # a > b
-        if a-b == 1 and a % 2 == 0 and b % 2 == 1:
-            return True
+    if abs(a-b) == 1 and max(a,b) % 2 == 0:
+        return True
     
     return False 
 
@@ -33,3 +28,4 @@ def solution(n,a,b):
         answer += 1 
             
     return answer 
+
