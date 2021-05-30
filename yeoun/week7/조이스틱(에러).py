@@ -1,7 +1,7 @@
 import re 
 
 def minMove(name):
-    
+
     spanA = [(m.start(0), m.end(0)) for m in re.finditer('A{1,}', name)]
     
     # A가 없는 경우 
@@ -39,7 +39,7 @@ def solution(name):
     # 커서 이동에 필요한 조작 횟수 
     answer = minMove(name)
     
-    alphabet = 'ABCDEFGHIJKLMNOPQRXTUVWXYZ'
+    alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     # A에서 위로 조작하는 것이 더 빠른 알파벳들 
     ups = alphabet[:len(alphabet)//2]
     # A에서 아래로 조작하는 것이 더 빠른 알파벳들 (N은 똑같이 13번이긴 함)

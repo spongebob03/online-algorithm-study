@@ -1,19 +1,16 @@
 def eng2ko(one_record, id2nickname):
+
+    user_id = one_record.split()[1]
+    nickname = id2nickname[user_id]
+
     # 채팅방 들어오기
     if one_record.startswith('Enter'):
-        user_id = one_record.split()[1]
-        nickname = id2nickname[user_id]
         return nickname + '님이 들어왔습니다.'
         
     # 채팅방 나가기 
     elif one_record.startswith('Leave'):
-        user_id = one_record.split()[1]
-        nickname = id2nickname[user_id]
         return nickname + '님이 나갔습니다.'
         
-    # 닉네임 변경 
-    else:
-        return 
 
 def solution(record):
     answer = []
