@@ -13,7 +13,5 @@ def solution(s):
             q.pop()
     
     # 큐가 비어 있으면 문자열을 모두 제거한 것이므로 1 반환 
-    if not q:
-        return 1
-    else:
-        return 0
+    return 1 if not q else 0 
+

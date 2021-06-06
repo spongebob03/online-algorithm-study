@@ -23,40 +23,45 @@ def distance(number, current_pos):
 
 def solution(numbers, hand):
     answer = ''
+    
     # 현재 왼손, 오른손의 위치 
     left = '*'
     right = '#'
-    
-    # 왼손, 오른손의 담당 번호들 
-    lefts = [1,4,7]
-    rights = [3,6,9]
+
+    active = 0
+    LEFT, RIGHT = 0, 1 
     
     for number in numbers:
         # 1, 4, 7 
-        if number in lefts:
-            answer += 'L'
-            left = number
+        if number in [1,4,7]:
+            active = LEFT 
+
         # 3, 6, 9
-        elif number in rights:
-            answer += 'R'
-            right = number
+        elif number in [3,6,9]:
+            active = RIGHT
+
         # 2, 5, 8, 0 
         else:
             # 왼손이 더 가까이 있으면 왼손이 
             if distance(number, left) < distance(number, right):
-                answer += 'L'
-                left = number 
+                active = LEFT 
+
             # 오른손이 더 가까이 있으면 오른손이 
             elif distance(number, left) > distance(number, right):
-                answer += 'R'
-                right = number 
+                active = RIGHT
+
             # 거리가 같으면 왼손잡이냐, 오른손잡이냐에 따라 결정 
             else:
                 if hand == 'right':
-                    answer += 'R'
-                    right = number
+                    active = RIGHT
                 else:
-                    answer += 'L'
-                    left = number
-    
+                    active = LEFT 
+
+        if active == LEFT:
+            answer += 'L'
+            left = number
+        else:
+            answer += 'R'
+            right = number 
+
     return answer
