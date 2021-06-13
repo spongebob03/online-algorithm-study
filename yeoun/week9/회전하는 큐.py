@@ -8,13 +8,11 @@ class RotatingQueue:
     # 첫 번째 원소를 뽑아낸다. 이 연산을 수행하면, 원래 큐의 원소가 a1, ..., ak이었던 것이 a2, ..., ak와 같이 된다.
     def computation1(self):
         self.queue.popleft()
-        return self.queue
     
     # 왼쪽으로 한 칸 이동시킨다. 이 연산을 수행하면, a1, ..., ak가 a2, ..., ak, a1이 된다.
     def computation2(self):
         first = self.queue.popleft()
         self.queue.append(first)
-
         
     # 오른쪽으로 한 칸 이동시킨다. 이 연산을 수행하면, a1, ..., ak가 ak, a1, ..., ak-1이 된다.
     def computation3(self):
