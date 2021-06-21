@@ -20,6 +20,9 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 
 
 ## 일정
+<details>
+<summary>1 ~ 9주차 일정 </summary>
+   
 |                  |1     |2    |3   |4     |5      |
 |:----------------:|:---:|:---:|:---:|:---:|:---:|
 |1주차(04.05~04.11)| [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)| [추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)|[단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) |[정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)|
@@ -32,3 +35,9 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 |7주차(05.24~05.30)|[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)|[오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)|[조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)|[JadenCase문자열](https://programmers.co.kr/learn/courses/30/lessons/12951)|[보석쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258)|
 |8주차(05.31~06.06)|[키패드누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)|[짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)|[기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)|[멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)|[입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)|
 |9주차(06.07~06.13)|[로또 순위](https://programmers.co.kr/learn/courses/30/lessons/77484)|[회전하는 큐](https://www.acmicpc.net/problem/1021)|[트리 순회](https://www.acmicpc.net/problem/1991)|[배달](https://programmers.co.kr/learn/courses/30/lessons/12978)|[가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)|
+   
+</details>
+
+|                  |알고리즘 유형     |2    |3   |4     |5      |
+|:----------------:|:---:|:---:|:---:|:---:|:---:|
+|10주차(06.21~06.27)|DFS/BFS|[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)|[바이러스](https://www.acmicpc.net/problem/2606)|[BFS](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)|[DFS](https://leetcode.com/problems/recover-binary-search-tree/description/)|
