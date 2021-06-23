@@ -23,7 +23,7 @@ class Solution:
             if depth and depth[0] == d:
                 node.next = queue[0]
             
-            # prevent error when node in None 
+            # prevent error when node is None 
             if node:
                 children = [node.left, node.right]
                 for child in children:
