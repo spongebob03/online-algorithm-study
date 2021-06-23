@@ -32,4 +32,5 @@ def dfs(start, graph, visited):
 visited = [False] * (N+1)
 visited = dfs(1, graph, visited)
 
+# 1은 제외하고 방문한 컴퓨터의 개수 세기 
 print(sum(visited)-1)
