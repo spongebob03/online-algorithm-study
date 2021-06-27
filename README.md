@@ -41,3 +41,4 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 |                  |알고리즘 유형     |2    |3   |4     |5      |
 |:----------------:|:---:|:---:|:---:|:---:|:---:|
 |10주차(06.21~06.27)|DFS/BFS|[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)|[바이러스](https://www.acmicpc.net/problem/2606)|[BFS](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)|[DFS](https://leetcode.com/problems/recover-binary-search-tree/description/)|
+|11주차(06.28~07.04)|이진탐색|특정 수의 개수 구하기|고정점 찾기|[공유기 설치](https://www.acmicpc.net/problem/2110)|[가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)|
