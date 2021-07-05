@@ -35,4 +35,4 @@ def solution(N, road, K):
     dijkstra(start=1)
     
     # K 이하의 시간에 배달이 가능한 마을의 개수 
-    return sum([True for d in distance if d <= K])
+    return len([d for d in distance if d <= K])
