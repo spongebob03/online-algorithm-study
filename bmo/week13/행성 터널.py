@@ -22,13 +22,23 @@ if __name__ == '__main__':
 
     for _ in range(n):
         x, y, z = map(int, f.readline().split())
-        nodes.append((x, y, z))
+        nodes.append((_, x, y, z))
     
-    # 뭔가... 이부분 때문에 메모리 초과인거 같은데...
-    for i in range(n):
-        for j in range(i+1, n):
-            edges.append((min([abs(nodes[i][0]-nodes[j][0]), abs(nodes[i][1]-nodes[j][1]), abs(nodes[i][2]-nodes[j][2])]), i, j))
-
+    # x축 
+    nodes.sort(key=lambda x: x[1])
+    for i in range(n-1):
+        edges.append((nodes[i+1][1] - nodes[i][1], nodes[i][0], nodes[i+1][0]))
+    
+    # y축
+    nodes.sort(key=lambda x: x[2])
+    for i in range(n-1):
+        edges.append((nodes[i+1][2] - nodes[i][2], nodes[i][0], nodes[i+1][0]))
+    
+    # z축
+    nodes.sort(key=lambda x: x[3])
+    for i in range(n-1):
+        edges.append((nodes[i+1][3] - nodes[i][3], nodes[i][0], nodes[i+1][0]))
+    
     edges.sort()
     
     for edge in edges:
