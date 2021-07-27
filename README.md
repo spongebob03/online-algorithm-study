@@ -44,3 +44,4 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 |11주차(06.28~07.04)|이진탐색|특정 수의 개수 구하기|고정점 찾기|[공유기 설치](https://www.acmicpc.net/problem/2110)|[가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)|
 |12주차(07.05~07.11)|최단경로|[플로이드](https://www.acmicpc.net/problem/11404)|정확한 순위|화성 탐사|숨박꼭질|
 |13주차(07.12~07.18)|그래프|여행 계획|탑승구|어두운 길|[행성 터널](https://www.acmicpc.net/problem/2887)|
+|14주차(07.26~08.01)|DP|금광|[정수 삼각형](https://www.acmicpc.net/problem/1932)|[퇴사](ttps://www.acmicpc.net/problem/14501)|[병사 배치하기](https://www.acmicpc.net/problem/18353)|
