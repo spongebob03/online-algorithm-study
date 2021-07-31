@@ -1,16 +1,22 @@
-def solution(powers):
-    dp = [1] * len(powers)
+def solution(n, powers):
+    dp = [[power] for power in powers]
+    max_power = 0
+    answer = 0
 
-    for i in range(1, len(powers)):
+    for i in range(1, n):
         for j in range(i, -1, -1):
             if powers[j] > powers[i]:
-                dp[i] = dp[j] + 1
+                dp[i] = dp[j] + dp[i]
                 break
-
-    return len(powers) - max(dp)
+    
+    for i in range(n):
+        if max_power < sum(dp[i]):
+            answer = n - len(dp[i])
+            
+    return answer
 
 if __name__ == '__main__':
-    n = int(input())
-    powers = list(map(int, input().split()))
-    result = solution(powers)
+    n = 7
+    powers = [15, 11, 4, 8, 5, 2, 4]
+    result = solution(n, powers)
     print(result)
