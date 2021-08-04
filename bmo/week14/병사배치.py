@@ -1,19 +1,13 @@
 def solution(n, powers):
-    dp = [[power] for power in powers]
-    max_power = 0
-    answer = 0
+    dp = [1] * n
+    powers.reverse()
 
     for i in range(1, n):
-        for j in range(i, -1, -1):
-            if powers[j] > powers[i]:
-                dp[i] = dp[j] + dp[i]
-                break
-    
-    for i in range(n):
-        if max_power < sum(dp[i]):
-            answer = n - len(dp[i])
-            
-    return answer
+        for j in range(0, i):
+            if powers[j] < powers[i]:
+                dp[i] = max(dp[i], dp[j]+1)
+
+    return n - max(dp)
 
 if __name__ == '__main__':
     n = 7

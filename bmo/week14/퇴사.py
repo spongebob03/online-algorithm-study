@@ -1,22 +1,22 @@
 f = open('bmo/week14/input3.txt')
 n = int(f.readline())
-tasks = []
+t = []
+q = []
+dp = [0] * (n+1)
+max_value = 0
+
 for i in range(1, n+1):
-    dur, price = map(int, f.readline().split())
-    if i + dur > n + 1:
-        continue
-    tasks.append((i, i+dur, price))
-tasks.sort(key=lambda x: (x[1], -x[2]))
-print(tasks)
+    x, y = map(int, f.readline().split())
+    t.append(x)
+    q.append(y)
 
-result = 0
-time = 0
+for i in range(n - 1, -1, -1):
+    time = t[i] + i
 
-for task in tasks:
-    start, end, price = task
-    if time > start:
-        continue
-    result += price
-    time = end
+    if time <= n:
+        dp[i] = max(p[i] + dp[time], max_value)
+        max_value = dp[i]
+    else:
+        dp[i] = max_value
 
-print(result)
+print(max_value)
