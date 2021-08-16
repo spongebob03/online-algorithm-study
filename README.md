@@ -46,5 +46,5 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 |13주차(07.12~07.18)|그래프|여행 계획|탑승구|어두운 길|[행성 터널](https://www.acmicpc.net/problem/2887)|
 ||
 |14주차(07.26~08.01)|DP|금광|[정수 삼각형](https://www.acmicpc.net/problem/1932)|[퇴사](https://www.acmicpc.net/problem/14501)|[병사 배치하기](https://www.acmicpc.net/problem/18353)|
-|15주차(08.02~08.08)|정렬|[국영수](https://www.acmicpc.net/problem/10825)|[안테나](https://www.acmicpc.net/problem/18310)|[실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|
-
+|15주차(08.02~08.15)|정렬|[국영수](https://www.acmicpc.net/problem/10825)|[안테나](https://www.acmicpc.net/problem/18310)|[실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|
+|16주차(08.16~08.22)|그리디|[문자열 뒤집기](https://www.acmicpc.net/problem/1439)|[무지의 먹방](https://programmers.co.kr/learn/courses/30/lessons/42891)|모험가 길드|곱하기 혹은 더하기|
