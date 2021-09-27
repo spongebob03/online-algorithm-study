@@ -48,3 +48,7 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 |14주차(07.26~08.01)|DP|금광|[정수 삼각형](https://www.acmicpc.net/problem/1932)|[퇴사](https://www.acmicpc.net/problem/14501)|[병사 배치하기](https://www.acmicpc.net/problem/18353)|
 |15주차(08.02~08.15)|정렬|[국영수](https://www.acmicpc.net/problem/10825)|[안테나](https://www.acmicpc.net/problem/18310)|[실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|
 |16주차(08.16~08.22)|그리디|[문자열 뒤집기](https://www.acmicpc.net/problem/1439)|[무지의 먹방](https://programmers.co.kr/learn/courses/30/lessons/42891)|모험가 길드|곱하기 혹은 더하기|
+|17주차(08.23~08.29)|구현|[럭키 스트레이트](https://www.acmicpc.net/problem/18406)|[뱀](https://www.acmicpc.net/problem/3190)|[기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)|[외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062)|
+|18주차(08.30~9.5)|DFS/BFS|[특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)|[연구소](https://www.acmicpc.net/problem/14502)|[경쟁적 전염](https://www.acmicpc.net/problem/18405)|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|
+|19주차(09.19~09.26)|DFS/BFS|[감시 피하기](https://www.acmicpc.net/problem/18428)|[인구 이동하기](https://www.acmicpc.net/problem/16234)|[블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063)|
+|20주차(09.27~09.30)||[최종 순위](https://www.acmicpc.net/problem/3665)|[아기 상어](https://www.acmicpc.net/problem/16236)|[별 찍기](https://www.acmicpc.net/problem/2447)|[평범한 배낭](https://www.acmicpc.net/problem/12865)|
