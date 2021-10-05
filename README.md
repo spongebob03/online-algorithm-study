@@ -52,3 +52,4 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 |18주차(08.30~9.5)|DFS/BFS|[특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)|[연구소](https://www.acmicpc.net/problem/14502)|[경쟁적 전염](https://www.acmicpc.net/problem/18405)|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|
 |19주차(09.19~09.26)|DFS/BFS|[감시 피하기](https://www.acmicpc.net/problem/18428)|[인구 이동하기](https://www.acmicpc.net/problem/16234)|[블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063)|
 |20주차(09.27~09.30)||[최종 순위](https://www.acmicpc.net/problem/3665)|[아기 상어](https://www.acmicpc.net/problem/16236)|[별 찍기](https://www.acmicpc.net/problem/2447)|[평범한 배낭](https://www.acmicpc.net/problem/12865)|
+|21주차(10.01~10.07)||[위클리-9](https://programmers.co.kr/learn/courses/30/lessons/86971)|[청소년 상어](https://www.acmicpc.net/problem/19236)|[토마토](https://www.acmicpc.net/problem/7576)|[설탕 배달](https://www.acmicpc.net/problem/2839)|
