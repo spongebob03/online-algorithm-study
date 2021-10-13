@@ -14,8 +14,8 @@ def get_point(line1, line2):
 
 def draw_star(star_pos):
     # x, y 분리해내기, 각 끝 알아내기
-    mrow = max(pos[0] for pos in star_pos)
-    mcol = min(pos[1] for pos in star_pos)
+    mrow = max([y for x, y in star_pos])
+    mcol = min([x for x, y in star_pos])
 
     trans_pos = []
     for x, y in star_pos:
