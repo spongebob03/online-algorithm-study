@@ -38,7 +38,7 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
    
 </details>
 
-|                  |알고리즘 유형     |2    |3   |4     |5      |
+|                  |알고리즘 유형     |1    |2   |3     |4      |
 |:----------------:|:---:|:---:|:---:|:---:|:---:|
 |10주차(06.21~06.27)|DFS/BFS|[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)|[바이러스](https://www.acmicpc.net/problem/2606)|[BFS](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)|[DFS](https://leetcode.com/problems/recover-binary-search-tree/description/)|
 |11주차(06.28~07.04)|이진탐색|특정 수의 개수 구하기|고정점 찾기|[공유기 설치](https://www.acmicpc.net/problem/2110)|[가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)|
@@ -50,6 +50,11 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 |16주차(08.16~08.22)|그리디|[문자열 뒤집기](https://www.acmicpc.net/problem/1439)|[무지의 먹방](https://programmers.co.kr/learn/courses/30/lessons/42891)|모험가 길드|곱하기 혹은 더하기|
 |17주차(08.23~08.29)|구현|[럭키 스트레이트](https://www.acmicpc.net/problem/18406)|[뱀](https://www.acmicpc.net/problem/3190)|[기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)|[외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062)|
 |18주차(08.30~9.5)|DFS/BFS|[특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)|[연구소](https://www.acmicpc.net/problem/14502)|[경쟁적 전염](https://www.acmicpc.net/problem/18405)|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|
+||
 |19주차(09.19~09.26)|DFS/BFS|[감시 피하기](https://www.acmicpc.net/problem/18428)|[인구 이동하기](https://www.acmicpc.net/problem/16234)|[블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063)|
 |20주차(09.27~09.30)||[최종 순위](https://www.acmicpc.net/problem/3665)|[아기 상어](https://www.acmicpc.net/problem/16236)|[별 찍기](https://www.acmicpc.net/problem/2447)|[평범한 배낭](https://www.acmicpc.net/problem/12865)|
 |21주차(10.01~10.07)||[위클리-9](https://programmers.co.kr/learn/courses/30/lessons/86971)|[청소년 상어](https://www.acmicpc.net/problem/19236)|[토마토](https://www.acmicpc.net/problem/7576)|[설탕 배달](https://www.acmicpc.net/problem/2839)|
+|22주차(10.08~10.14)||[위클리10](https://programmers.co.kr/learn/courses/30/lessons/87377)|[어른 상어](https://www.acmicpc.net/problem/19237)|[로봇 청소기](https://www.acmicpc.net/problem/14503)|[부분수열의 합](https://www.acmicpc.net/problem/1182)|
+||
+|23주차(10.21~10.28)||[위클리11](https://programmers.co.kr/learn/courses/30/lessons/87694)|[위클리12](https://programmers.co.kr/learn/courses/30/lessons/87946)|[Boggle](https://www.acmicpc.net/problem/9202)|[1로 만들기2](https://www.acmicpc.net/problem/12852)|
+|24주차(10.29~11.04)||위클리13|[색종이](https://www.acmicpc.net/problem/2563)|[계단 오르기](https://www.acmicpc.net/problem/2579)|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|
