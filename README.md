@@ -57,4 +57,4 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 |22주차(10.08~10.14)||[위클리10](https://programmers.co.kr/learn/courses/30/lessons/87377)|[어른 상어](https://www.acmicpc.net/problem/19237)|[로봇 청소기](https://www.acmicpc.net/problem/14503)|[부분수열의 합](https://www.acmicpc.net/problem/1182)|
 ||
 |23주차(10.21~10.28)||[위클리11](https://programmers.co.kr/learn/courses/30/lessons/87694)|[위클리12](https://programmers.co.kr/learn/courses/30/lessons/87946)|[Boggle](https://www.acmicpc.net/problem/9202)|[1로 만들기2](https://www.acmicpc.net/problem/12852)|
-|24주차(10.29~11.04)||위클리13|[색종이](https://www.acmicpc.net/problem/2563)|[계단 오르기](https://www.acmicpc.net/problem/2579)|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|
+|24주차(10.29~11.04)||위클리13|[색종이](https://www.acmicpc.net/problem/2563)|[계단 오르기](https://www.acmicpc.net/problem/2579)|[미세먼지 안녕!] (https://www.acmicpc.net/problem/17144)|
