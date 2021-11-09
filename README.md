@@ -38,7 +38,7 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
    
 </details>
 
-|                  |알고리즘 유형     |1    |2   |3     |4      |
+|일정                  |알고리즘 유형     |1    |2   |3     |4      |
 |:----------------:|:---:|:---:|:---:|:---:|:---:|
 |10주차(06.21~06.27)|DFS/BFS|[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)|[바이러스](https://www.acmicpc.net/problem/2606)|[BFS](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)|[DFS](https://leetcode.com/problems/recover-binary-search-tree/description/)|
 |11주차(06.28~07.04)|이진탐색|특정 수의 개수 구하기|고정점 찾기|[공유기 설치](https://www.acmicpc.net/problem/2110)|[가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)|
@@ -57,4 +57,5 @@ Github의 PR(Pull Request)를 이용해서 리뷰를 합니다.
 |22주차(10.08~10.14)||[위클리10](https://programmers.co.kr/learn/courses/30/lessons/87377)|[어른 상어](https://www.acmicpc.net/problem/19237)|[로봇 청소기](https://www.acmicpc.net/problem/14503)|[부분수열의 합](https://www.acmicpc.net/problem/1182)|
 ||
 |23주차(10.21~10.28)||[위클리11](https://programmers.co.kr/learn/courses/30/lessons/87694)|[위클리12](https://programmers.co.kr/learn/courses/30/lessons/87946)|[Boggle](https://www.acmicpc.net/problem/9202)|[1로 만들기2](https://www.acmicpc.net/problem/12852)|
-|24주차(10.29~11.04)||위클리13|[색종이](https://www.acmicpc.net/problem/2563)|[계단 오르기](https://www.acmicpc.net/problem/2579)|[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)|
+|24주차(10.29~11.04)||[모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512)|[색종이](https://www.acmicpc.net/problem/2563)|[계단 오르기](https://www.acmicpc.net/problem/2579)|[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)|
+|25주차(11.07~11.11)|DP|[컨베이어 로봇](https://www.acmicpc.net/problem/20055)|[포도주 시식](https://www.acmicpc.net/problem/2156)|[팰린드롬 만들기](https://www.acmicpc.net/problem/1695)|[계단 수](https://www.acmicpc.net/problem/1562)|
