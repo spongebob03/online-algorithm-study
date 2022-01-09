@@ -1,26 +1,24 @@
-f = open('input.txt', 'r')
+from collections import deque
 
-arr = [s for s in f.readline()[:-1]]
+arr = [s for s in input()]
 n = len(arr)
 cursor = n
 
-m = int(f.readline())
+m = int(input())
+left = deque(arr)
+right = deque()
 
 for _ in range(m):
-    cmd = f.readline()
-    if cmd[0] == 'L' and cursor > 0:
-        cursor -= 1
-    elif cmd[0] == 'D' and cursor < n:
-        cursor += 1
-    elif cmd[0] == 'B':
-        if cursor > 0 and n > 0:
-            arr.pop(cursor-1)
-            cursor -= 1
-            n -= 1
+    cmd = input()
+    if cmd[0] == 'L' and left:
+        right.appendleft(left.pop())
+    elif cmd[0] == 'D' and right:
+        left.append(right.popleft())
+    elif cmd[0] == 'B' and left:
+        left.pop()
     elif cmd[0] == 'P':
         c = cmd.split()[1]
-        arr.insert(cursor, c)
-        cursor += 1
-        n += 1
+        left.append(c)
 
-print(''.join(arr))
+print(''.join(left), end='')
+print(''.join(right))
