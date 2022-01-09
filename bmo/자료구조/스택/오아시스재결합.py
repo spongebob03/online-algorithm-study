@@ -2,15 +2,31 @@ f = open("input.txt", "r")
 
 n = int(f.readline())
 
-p = [int(f.readline()) for _ in range(n)]
-answer = n -1 # 기본적으로 이웃끼리 볼 수 있으므로
+HEIGHT, CNT = 0, 1 # (키, 이 사람이 볼 수 있는 사람)
 
-for i in range(n):
-    for j in range(n-1, i+1, -1):
-        # print(p[i], p[j], p[i+1:j])
-        middle = max(p[i+1:j])
-        if middle > p[i] or middle > p[j]:
-            continue
-        answer += 1
+answer = 0
+stack = []
 
+for _ in range(n):
+    curr = int(f.readline())
+
+    while stack and stack[-1][HEIGHT] < curr:
+        # 스택에 들어있는 앞사람들보다 키가 더 큰 사람이 있으면
+        # 앞사람들은 더 볼 수 없을거니까 pop
+        answer += stack.pop()[CNT]
+
+    if not stack:
+        stack.append((curr, 1))
+    else:
+        if stack[-1][HEIGHT] == curr:
+            cnt = stack.pop()[CNT]
+            answer += cnt
+            if stack:
+                answer += 1
+            stack.append((curr, cnt + 1))
+        else:
+            stack.append((curr, 1))
+            answer += 1
+            
+    print(stack)
 print(answer)
